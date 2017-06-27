@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         settings.setSupportZoom(true);//设定支持缩放
 
         //打开的网址
-        webview.loadUrl("http://www.163.com");
+        webview.loadUrl("http://www.baidu.com");
 
     }
 }
