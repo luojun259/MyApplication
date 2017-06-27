@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.myapplication.MainActivity">
+    <!-- 就是android 可视化组件
+        RelativeLayout: 相对布局,所有的组件都从原点开始,支持重叠
+        LinearLayout: 线性布局,分为水平和垂直, 不支持重叠
+    -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!" />
+    <Button
+        android:text="登录"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    
+    <!--  内置浏览器,可以解析页面,是H5移动跨平台的基础 -->
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </WebView>
+
+
+
+
+</LinearLayout>
